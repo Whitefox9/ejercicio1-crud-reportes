@@ -1,0 +1,155 @@
+/*stylos del body*/
+
+body {
+    background-color: #f0f8ff; /* O el color que hayas elegido */
+    padding-top: 56px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+/* Ajusta el padding-top en pantallas más grandes si tu navbar cambia de altura */
+@media (min-width: 992px) {
+    body {
+        padding-top: 76px; /* Ajusta si tu navbar es más alto en pantallas grandes */
+    }
+}
+
+/* Aumentar el tamaño de las letras del menú */
+.navbar-nav .nav-link {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+/* Hacer el menú más visible */
+.navbar.navbar-expand-lg {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1) !important;
+}
+
+/* Aumentar el espacio entre el menú y el carousel */
+.container.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
+/* Estilo adicional para el navbar */
+.navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+}
+
+/* Estilo para el carousel */
+.carousel {
+    margin-top: 3rem !important; 
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,.1) !important;
+}
+
+/* Estilo de prueba para verificar que el CSS se está aplicando */
+body {
+    background-color: #f0f0f0 !important;
+}
+
+body{
+    /* Created with https://www.css-gradient.com */
+    background: #161616;
+    }
+    h1{
+      color:#fff;
+    }
+    .lead{
+      color:#aaa;
+    }
+    
+    .wrapper{margin:10vh}
+
+    /* ajustar imagenes */
+
+    .carousel-inner img {
+            height: 400px; /* Altura fija */
+            object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    }
+    /*estilo de la tarjeta*/
+    
+.unique-card {
+    background-color: #f8f9fa;
+    border: 2px #077bff;
+    border-radius: 10px;
+}
+
+.unique-card .card-title {
+    color: #007bff; /* Color del título */
+}
+
+.unique-card .card-text {
+    font-size: 16px; /* Tamaño de fuente del texto */
+}
+
+.unique-card .card-body {
+    padding: 20px; /* Padding personalizado */
+}
+
+.unique-card {
+    margin-top: 1.5rem !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover;
+}
+
+@media (max-width: 769px) {
+    .container {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .card {
+        border-radius: 0;
+    }
+}
+
+.img {
+    height: 40px;
+    width: 60px;
+}
+
+.text-center {
+    margin-top: 4rem;
+}
+
+.needs-validation {
+    margin-top: 4rem;
+}
+
+.custom-image {
+    width: 100%;
+    height: auto; /* Ajusta la altura automáticamente manteniendo la proporción */
+}
+
+body {
+    background-color: greenyellow;
+}
+
+.layout {
+    width: 360px;
+    height: 800px;
+  
+    display: grid;
+    grid:
+      "sidebar body" 1fr
+      / auto 1fr;
+    gap: 8px;
+  }
+  
+  .sidebar { grid-area: sidebar; }
+  .body { grid-area: body; }
